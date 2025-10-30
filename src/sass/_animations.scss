@@ -1,0 +1,70 @@
+@keyframes topAnimation {
+	0% {
+		transform: translate(-50%, 0) rotate(0);
+	}
+	50% {
+		transform: translate(-50%, 8px) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, 8px) rotate(45deg);
+	}
+}
+@keyframes bottomAnimation {
+	0% {
+		transform: translate(-50%, 0) rotate(0);
+	}
+	50% {
+		transform: translate(-50%, -8px) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, -8px) rotate(135deg);
+	}
+}
+@keyframes topAnimationClose {
+	0% {
+		transform: translate(-50%, 8px) rotate(45deg);
+	}
+	50% {
+		transform: translate(-50%, 8px) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, 0) rotate(0);
+	}
+}
+@keyframes bottomAnimationClose {
+	0% {
+		transform: translate(-50%, -8px) rotate(135deg);
+	}
+	50% {
+		transform: translate(-50%, -8px) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, 0) rotate(0);
+	}
+}
+@keyframes fade-in {
+	from {
+		transform: translateY(-100px);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+@keyframes opacity {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes activeLink {
+	from {
+		opacity: 0;
+		transform: scale(0);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
